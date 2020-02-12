@@ -12,18 +12,20 @@ We get together every two weeks for 30 min to talk about the chapter(s). Each me
 
 ### Meeting schedule:
 
-| Chapters | Topic                          | Pages          | Date _(Pending...)_ | Reviewer                                       |
-| -------- | ------------------------------ | -------------- | ------------------- | ---------------------------------------------- |
-| 1 - 2    | Part I: Introduction           | 1 - 18 (18)    | Wed, Feb 26 2020    | [Martin, Ben](https://github.com/martindevnow) |
-| 3 - 6    | Part II: Programming Paradigms | 19 - 56 (38)   | Wed, Mar 12 2020    |
-| 7 - 11   | Part III: Design Principals    | 57 - 91 (34)   | Wed, Mar 26 2020    |
-| 12 - 14  | Part IV: Component Principals  | 92 - 132 (41)  | Wed, Apr 09 2020    |
-| 15 - 18  | Part V: Architecture (Part 1)  | 133 - 181 (48) | Wed, Apr 23 2020    |
-| 19 - 25  | Part V: Architecture (Part 2)  | 183 - 220 (37) | Wed, May 07 2020    |
-| 26 - 29  | Part V: Architecture (Part 3)  | 231 - 273 (43) | Wed, May 21 2020    |
-| 30 - 34  | Part VI: Details               | 275 - 321 (47) | Wed, Jun 04 2020    |
+| Chapters | Topic                          | Pages          | Date             | Reviewer                                       |
+| -------- | ------------------------------ | -------------- | ---------------- | ---------------------------------------------- |
+| 1 - 2    | Part I: Introduction           | 1 - 18 (18)    | Wed, Mar 04 2020 | [Martin, Ben](https://github.com/martindevnow) |
+| 3 - 6    | Part II: Programming Paradigms | 19 - 56 (38)   | Wed, Mar 18 2020 |
+| 7 - 11   | Part III: Design Principals    | 57 - 91 (34)   | Wed, Apr 01 2020 |
+| 12 - 14  | Part IV: Component Principals  | 92 - 132 (41)  | Wed, Apr 15 2020 |
+| 15 - 18  | Part V: Architecture (Part 1)  | 133 - 181 (48) | Wed, Apr 29 2020 |
+| 19 - 25  | Part V: Architecture (Part 2)  | 183 - 220 (37) | Wed, May 13 2020 |
+| 26 - 29  | Part V: Architecture (Part 3)  | 231 - 273 (43) | Wed, May 27 2020 |
+| 30 - 34  | Part VI: Details               | 275 - 321 (47) | Wed, Jun 10 2020 |
 
-(Tentative, subject to change)
+### Location
+
+**Meeting Room:** Toronto Office, 6F's Boardroom 2.0
 
 ### Resources:
 
