@@ -12,18 +12,16 @@ We get together every two weeks for 30 min to talk about the chapter(s). Each me
 
 ### Meeting schedule:
 
-| Chapters | Topic                          | Pages          | Date *(Pending...)* | Reviewer                                       |
+| Chapters | Topic                          | Pages          | Date _(Pending...)_ | Reviewer                                       |
 | -------- | ------------------------------ | -------------- | ------------------- | ---------------------------------------------- |
-| 1 - 2    | Part I: Introduction           | 1 - 18    (18) | Thurs, Feb 27 2020  | [Martin, Ben](https://github.com/martindevnow) |
-| 3 - 6    | Part II: Programming Paradigms | 19 - 56   (38) | Thurs, Mar 13 2020  |
-| 7 - 11   | Part III: Design Principals    | 57 - 91   (34) | Thurs, Mar 27 2020  |
-| 12 - 14  | Part IV: Component Principals  | 92 - 132  (41) | Thurs, Apr 10 2020  |
-| 15 - 18  | Part V: Architecture (Part 1)  | 133 - 181 (48) | Thurs, Apr 24 2020  |
-| 19 - 25  | Part V: Architecture (Part 2)  | 183 - 220 (37) | Thurs, May 08 2020  |
-| 26 - 29  | Part V: Architecture (Part 3)  | 231 - 273 (43) | Thurs, May 22 2020  |
-| 30 - 34  | Part VI: Details               | 275 - 321 (47) | Thurs, Jun 05 2020  |
- 
-
+| 1 - 2    | Part I: Introduction           | 1 - 18 (18)    | Wed, Feb 26 2020    | [Martin, Ben](https://github.com/martindevnow) |
+| 3 - 6    | Part II: Programming Paradigms | 19 - 56 (38)   | Wed, Mar 12 2020    |
+| 7 - 11   | Part III: Design Principals    | 57 - 91 (34)   | Wed, Mar 26 2020    |
+| 12 - 14  | Part IV: Component Principals  | 92 - 132 (41)  | Wed, Apr 09 2020    |
+| 15 - 18  | Part V: Architecture (Part 1)  | 133 - 181 (48) | Wed, Apr 23 2020    |
+| 19 - 25  | Part V: Architecture (Part 2)  | 183 - 220 (37) | Wed, May 07 2020    |
+| 26 - 29  | Part V: Architecture (Part 3)  | 231 - 273 (43) | Wed, May 21 2020    |
+| 30 - 34  | Part VI: Details               | 275 - 321 (47) | Wed, Jun 04 2020    |
 
 (Tentative, subject to change)
 
@@ -33,4 +31,5 @@ We get together every two weeks for 30 min to talk about the chapter(s). Each me
 - [Chapter summaries](./chapter-summaries.md)
 
 ### Contributors:
+
 - [Martin, Ben](https://github.com/martindevnow)
