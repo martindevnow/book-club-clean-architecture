@@ -2,13 +2,14 @@
 
 This page is reserved to capture a summary of each chapter.
 
-# PART I: Introduction
-## Chapter 1: What Is Design and Architecture?
+# [PART I: Introduction](./summaries/introduction.md)
 
+## [Chapter 1: What Is Design and Architecture?](./summaries/chapter-1.md)
 
-## Chapter 2: A Tale of Two Values
+## [Chapter 2: A Tale of Two Values](summaries/chapter-2.md)
 
 # PART II: Starting with the Bricks: Programming Paradigms
+
 ## Chapter 3: Paradigm Overview
 
 ## Chapter 4: Structured Programming
@@ -18,6 +19,7 @@ This page is reserved to capture a summary of each chapter.
 ## Chapter 6: Functional Programming
 
 # PART III: Design Principles
+
 ## Chapter 7: SRP: The Single Responsibility Principle
 
 ## Chapter 8: OCP: The Open-Closed Principle
@@ -29,6 +31,7 @@ This page is reserved to capture a summary of each chapter.
 ## Chapter 11: DIP: The Dependency Inversion Principle
 
 # PART IV: Component Principles
+
 ## Chapter 12: Components
 
 ## Chapter 13: Component Cohesion
@@ -36,6 +39,7 @@ This page is reserved to capture a summary of each chapter.
 ## Chapter 14: Component Coupling
 
 # PART V: Architecture
+
 ## Chapter 15: What Is Architecture?
 
 ## Chapter 16: Independence
@@ -67,6 +71,7 @@ This page is reserved to capture a summary of each chapter.
 ## Chapter 29: Clean Embedded Architecture
 
 # PART VI: Details
+
 ## Chapter 30: The Database Is a Detail
 
 ## Chapter 31: The Web Is a Detail
