@@ -1,24 +1,31 @@
-# Chapter 5: Object-Oriented Programming
+## Chapter 5: Object-Oriented Programming
 
 What is OO? One common answer is "The combination of data and function." This is not correct because it implies `o.f()` is different than `f(o)`. Another common answer is "A way to model the real world."
 
 OO can be explained by 3 concepts: _encapsulation_, _inheritance_ and _polymorphism_.
 
-# Encapsulation
+### Encapsulation
 
 OO languages provide easy and effective encapsulation of data and functions by grouping cohesive sets of data and functions. Outside their groups, data is hidden and only some functions are known. This can be seen in practice as private data members and public member functions of a class.
 
 The C language natively supports perfect encapsulation through header and implementation files. Subsequent languages like Java or C++ do not enforce encapsulation as strongly, due to technical or other reasons. Specific keywords like _public_, _private_ and _public_ were hacks these languages implemented to retain encapsulation enforcement.
 
-# Inheritance
+### Inheritance
 
 Can be explained as the redeclaration of a group of variables or functions within an enclosing scope.
 
-# Polymorphism
+### Polymorphism
 
-An application of pointers to functions. However, this dangerous and OO languages eliminate these conventions. Programs should be _device independent_.
+Is an application of pointers to functions. However, this is dangerous because use is driven by a set of manual conventions:
 
-# Dependency Inversion
+- You must follow the convention to initialize those pointers
+- You must follow the convention to call your functions through those pointers
+
+Failure to adhere to the conventions can create nasty bugs. OO languages eliminate these conventions.
+
+For example, programmers used to write code that read input from decks of cards. Later on magnetic tape was used instead of cards. It would be convenient if programs were agnostic of cards or tape instead of re-writing large parts of the source code.
+
+### Dependency Inversion
 
 Any source code dependency, no matter where it is, can be inverted. Any dependency can be inverted by inserting an interface between them. This gives architects absolute control over the direction of source code dependencies in the system.
 
