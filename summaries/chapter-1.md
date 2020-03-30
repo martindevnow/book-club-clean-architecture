@@ -1,7 +1,3 @@
-# Part 1: Introduction
-
-Getting something to work once, isn’t that hard. Getting it right, though, takes passion for the craft and the desire to be a professional. Software done right minimizes effort and maximizes functionality and flexibility.
-
 ## Chapter 1: What is Design and Architecture?
 
 Design and Architecture are the same thing. And so it is with software design. The low-level details and the high-level structure are all part of the same whole. The goal of software architecture is to minimize the Human Resources required to build and maintain the required system. The requirement of human effort should not grow with each release.
