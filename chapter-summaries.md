@@ -18,17 +18,17 @@ This page is reserved to capture a summary of each chapter.
 
 ## Chapter 6: Functional Programming
 
-# PART III: Design Principles
+# [PART III: Design Principles](summaries/part-3.md)
 
-## Chapter 7: SRP: The Single Responsibility Principle
+## [Chapter 7: SRP: The Single Responsibility Principle](summaries/chapter-7.md)
 
-## Chapter 8: OCP: The Open-Closed Principle
+## [Chapter 8: OCP: The Open-Closed Principle](summaries/chapter-8.md)
 
-## Chapter 9: LSP: The Liskov Substitution Principle
+## [Chapter 9: LSP: The Liskov Substitution Principle](summaries/chapter-9.md)
 
-## Chapter 10: ISP: The Interface Segregation Principle
+## [Chapter 10: ISP: The Interface Segregation Principle](summaries/chapter-10.md)
 
-## Chapter 11: DIP: The Dependency Inversion Principle
+## [Chapter 11: DIP: The Dependency Inversion Principle](summaries/chapter-11.md)
 
 # PART IV: Component Principles
 
