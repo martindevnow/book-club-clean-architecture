@@ -1,4 +1,4 @@
-## Chapter 6: SRP - The Single Responsibility Principle
+## Chapter 7: SRP - The Single Responsibility Principle
 
 Each software module is responsible for one, and only one, actor - an actor being a single or a group of people (users, stakeholders, etc) that require a change. This is highly dependant on the social structure of the organization.
 
