@@ -1,4 +1,4 @@
-### ISP: The Interface Segregation Principle
+## ISP: The Interface Segregation Principle
 
 <img width="570" alt="10-1" src="https://user-images.githubusercontent.com/16246749/78095207-5ff5da80-73a4-11ea-86e8-fa758f06c1a3.png">
 
@@ -12,7 +12,7 @@ The author present this situation and a solution: it can be resolved by `segrega
 
 In this new situation the source code of `User1` will depend on `U1Ops`, and `op1`, but will not depend on `OPS`. Thus a change to `OPS` that `User1` does not care about will not cause `User1` to be recompiled and redeployed.
 
-## ISP and Languages
+### ISP and Languages
 
 Statically typed languages like Java force programmers to create declarations that users must `import`, or `use`, or otherwise `include`. 
 These `included` declarations create the source code dependencies that force recompilation and redeployment.
@@ -23,7 +23,7 @@ As a conclusion we have that `dynamically typed languages` create systems that a
 
 But ISP is not only a language issue.
 
-## ISP and Architecture
+### ISP and Architecture
 
 In general, it is harmful to depend on modules that contain more than you need.
 
@@ -37,6 +37,6 @@ So S depends on F. which depends on D.
 If D contains features that F does not use and S does not care about, changes on those features may force the redeployment of F and S.
 In a worst case, can cause a failure in all levels.
 
-## Conclusion
+### Conclusion
 
 Depending on something that carries baggage that you don’t need can cause you troubles that you didn’t expect.
