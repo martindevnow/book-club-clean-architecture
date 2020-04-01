@@ -20,14 +20,14 @@ An example of another violation is an aggregator for many different taxi dispatc
 
 The URI could look like:
 
-````purplecab.com/driver/Bob
+```purplecab.com/driver/Bob
     /pickupAddress/24 Maple Street
     /pickupTime/153
-    /destination/ORD```
+    /destination/ORD
+```
 
 All the other dispatch services from the different companies must conform to the same REST interface, their fields being identical.
 
 If a requirement came in that forced us to use different field names for a different company named Acme, we need to add special cases. Acme's dispatch request would have to be constructed with different rules from all the other ones, and we may end up implementating bad practices such as adding `if` statements to detect for the string `acme` throughout the code. This opens us up to erroneous results and security breaches. If more requirements come in that further complicate the situation, we need to add more mechanisms to insulate from more bugs.
 
 Violating this principle can cause a system's architecture to be polluted with a significant amount of extra mechanisms.
-````
