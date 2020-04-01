@@ -2,7 +2,7 @@
 
 <img width="570" alt="10-1" src="https://user-images.githubusercontent.com/16246749/78095207-5ff5da80-73a4-11ea-86e8-fa758f06c1a3.png">
 
-The chapter start with an sample: there are several users who use the operations of the `OPS` class. Let’s assume that `User1` uses only `op1`, `User2` uses only `op2`, and `User3` uses only `op3`.
+The chapter start with a sample: there are several users who use the operations of the `OPS` class. Let’s assume that `User1` uses only `op1`, `User2` uses only `op2`, and `User3` uses only `op3`.
 
 Also, imagine that `OPS` is a class written in a statically typed language like Java. In that case, the source code of `User1` will depend on `op2` and `op3`, even though it doesn’t call them. This dependence means that a change to the source code of `op2` in `OPS` will force `User1` to be recompiled and redeployed, even though nothing that it cared about has actually changed.
 
