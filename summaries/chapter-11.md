@@ -4,15 +4,15 @@ The Dependency Inversion Principle (DIP) tells us that the most flexible systems
 
 In a statically typed language as in dynamically typed languages, source code dependencies should not refer to concrete modules.
 
-The author says that treating this idea as a rule is unrealistic. In a real-world, software systems must depend on many concrete facilities. As an example, the Java's class `String` is concrete and must not force to be abstract.
+The author says that treating this idea as a rule is unrealistic. In a real-world, software systems must depend on many concrete facilities. As an example, the Java's class `String` is concrete and we must not force to be abstract.
 
 Also is important to mention that the `String` class is very stable, and changes are very rare and tightly controlled.
-In that case, programmers tend to ignore the stable background of operating system and platform facilities when it comes to DIP.
-The author highlights that is the volatile concrete elements of the system that we want to avoid depending on.
+
+The author highlights that it is the volatile concrete elements of the system that we want to avoid depending on.
 
 ### Stable Abstractions
 
-Every change in an abstract interface corresponds to a change in its concrete implementations. On the other hand, changes to concrete implementations do not always, or even generally, require changes to the interfaces they implement. Therefore, interfaces are less volatile than implementations.
+Every change in an abstract interface corresponds to a change in its concrete implementations. On the other hand, changes to concrete implementations do not always require changes to the interfaces they implement. Interfaces are less volatile than implementations.
 
 We must aim to to reduce the volatility of interfaces, trying to find ways to add functionality to implementations without making changes to the interfaces. This is Software Design 101.
 
