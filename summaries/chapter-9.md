@@ -1,4 +1,4 @@
-## Chapter 9: OCP - The Liskov Substitution Principle
+## Chapter 9: LSP - The Liskov Substitution Principle
 
 In order to build software systems from interchangeable parts, those parts must be able to be easily substituted for one another.
 
@@ -31,3 +31,7 @@ All the other dispatch services from the different companies must conform to the
 If a requirement came in that forced us to use different field names for a different company named Acme, we need to add special cases. Acme's dispatch request would have to be constructed with different rules from all the other ones, and we may end up implementating bad practices such as adding `if` statements to detect for the string `acme` throughout the code. This opens us up to erroneous results and security breaches. If more requirements come in that further complicate the situation, we need to add more mechanisms to insulate from more bugs.
 
 Violating this principle can cause a system's architecture to be polluted with a significant amount of extra mechanisms.
+
+### Conclusion
+
+> The LSP can, and should, be extended to the level of architecture. A simple violation of substitutability, can cause a system's architecture to be polluted with a significant amount of extra mechanisms.

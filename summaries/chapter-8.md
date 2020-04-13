@@ -1,5 +1,7 @@
 ## Chapter 8: OCP - The Open-Closed Principle
 
+> A software artifact should be open for extension, but closed for modification.
+
 This principle states that to make software easy to change, it must allow for changes to be made by adding new code rather than changing existing code. If simple changes to the requirements results in massive changes to the software, the architecture of it is flawed.
 
 ### A Thought Experiment
@@ -20,3 +22,10 @@ In this case the most important component is the `Interactor` that contains the 
 ### Information Hiding
 
 Software entities should not depend on things they don't generally use. We can have interfaces that serve the purpose of protecting entities from knowing too much about other ones. This can help further protect components from changes, and can be implemented to also protect lower concept components from changes to higher concept components.
+
+### Conclusion
+
+OCP's goal is to make the system easy to extend without incurring a high impact of change, by:
+
+- partitioning the system into components
+- arranging the components into a dependecy hierarchy that protects higher-level components from changes in lower level components

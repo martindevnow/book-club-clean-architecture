@@ -35,3 +35,7 @@ To alleviate having to track 3 different classes, we can build on this solution 
 An `EmployeeFacade` would contain very little code and is only responsible for instantiating and delegating to the classes.
 
 If you are more comfortable keeping the most important business rules closer to the data, the most important method can be kept in the `Employee` class and instead use the class as the _Facade_ for the less important functions.
+
+### Conclusion
+
+SRP is about functions and classes, but reappears at higher levels as **Common Closure Principal** for components and **Axis of Change** responsible for the creation of architectural boundaries.
