@@ -2,6 +2,8 @@
 
 Good materials with bad strategy as well as bad materials with good strategy both lead to a mess. SOLID principals tell us how to group our code and how those groups of code should be interconnected.
 
+SOLID is a set of design principles that can guide us on how our classes should be interconnected, classes being coupled groupings of functions and data structures, and also on how these functions and data structures should be arranged. They also help guide our software structures used within modules and components.
+
 The goal is mid-level software structures that:
 
 - tolerate change

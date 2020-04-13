@@ -2,21 +2,23 @@
 
 This page is reserved to capture a summary of each chapter.
 
-# [PART I: Introduction](./summaries/introduction.md)
+# [Foreword and Preface](./summaries/preface.md)
+
+# [PART I: Introduction](./summaries/part-1.md)
 
 ## [Chapter 1: What Is Design and Architecture?](./summaries/chapter-1.md)
 
 ## [Chapter 2: A Tale of Two Values](summaries/chapter-2.md)
 
-# PART II: Starting with the Bricks: Programming Paradigms
+# [PART II: Starting with the Bricks: Programming Paradigms](summaries/part-2.md)
 
-## Chapter 3: Paradigm Overview
+## [Chapter 3: Paradigm Overview](summaries/chapter-3.md)
 
-## Chapter 4: Structured Programming
+## [Chapter 4: Structured Programming](summaries/chapter-4.md)
 
-## Chapter 5: Object-Oriented Programming
+## [Chapter 5: Object-Oriented Programming](summaries/chapter-5.md)
 
-## Chapter 6: Functional Programming
+## [Chapter 6: Functional Programming](summaries/chapter-6.md)
 
 # [PART III: Design Principles](summaries/part-3.md)
 

@@ -1,32 +1,27 @@
-## Chapter 8: The Open-Closed Principal
+## Chapter 8: OCP - The Open-Closed Principle
 
 > A software artifact should be open for extension, but closed for modification.
 
-### Thought Experiment
+This principle states that to make software easy to change, it must allow for changes to be made by adding new code rather than changing existing code. If simple changes to the requirements results in massive changes to the software, the architecture of it is flawed.
 
-Financial data presented on a web page must now be printable to black and white printer paper.
+### A Thought Experiment
 
-In the situation where the `Web View Layer` is a module that depends on the `financial data`, we can easily build a new module for the `Printer View Layer` responsible to a new actor. This utilizes Dependecy Inversion (covered later) to allow us to decouple the data from it's dependencies.
+Take for example a system that displays a financial report on a webpage, and stakeholders ask that a different printable report view must be made. Ideally, the amount of old code that needsd to change should be zero or the barest minimum, and only new code added.
 
-The calculation of the data and the presentation of the data are two different responsabilities.
+We can help achieve this by following other design principles as well:
 
-!! Insert Image !!
+- We can separate things that change for different reasons (Single Responsibility Principle) - the calculation of the reported data and the presentation of the data into web & print forms.
+- We organize the dependencies properly (Dependency Inversion Principle) - ensure that changes to one responsibility does not cause changes to the other, and that this organization ensures behaviour can be extended without undo modification.
 
-> An arrow pointing from class A to class B means that the source code of class A mentions the name of class B, but class B mentions nothing about class A.
-> If component A should be protected from changes in Component B, then component B should depend on component A.
+If we partition the processes into classes, and separate them into components, we get for this example some components such as a `Controller`, `Presenters`, an `Interactor`, a `Database`, and web and PDF `Views`.
 
-> Changes in the "Views" should not impact the "Presenter" just as changes in the "Presenter" should not impact the "Controller" and changes in the "Controller" should not impact the "Interactor".
-> In this example, the **Interactor** is our _Business Logic_ and it should be most insulated from changes in the rest of the system.
+The flow of dependency between these components should be **unidirectional**, going from the least important to protect from change to the most important. To protect a component from changes, it should be the dependency for other components rather than depend on others.
 
-> Higher level components in this hierarchy are protected from the changes made to lower-level components.
-
-### Directional Control
-
-Interfaces are inserted to ensure dependencies are pointed in the right direction.
+In this case the most important component is the `Interactor` that contains the highest level policies & concepts. It will have the lesser components depend on it, and even lesser components depend on those, and so on until we get to the `Views` which have the lowest level concepts.
 
 ### Information Hiding
 
-The interface between the controller and the Interactor are designed to protect the Controller from changes in the Interactor, and prevent a transitive dependency on the `FinancialEntities` as this is a violation of the general principal that software entities should not depend on things they don't directly use.
+Software entities should not depend on things they don't generally use. We can have interfaces that serve the purpose of protecting entities from knowing too much about other ones. This can help further protect components from changes, and can be implemented to also protect lower concept components from changes to higher concept components.
 
 ### Conclusion
 

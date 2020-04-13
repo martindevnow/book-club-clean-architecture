@@ -1,28 +1,40 @@
-## Chapter 7: SRP: The Single Responsibility Principal
+## Chapter 7: SRP - The Single Responsibility Principle
 
-This does not mean that a module should do only one thing. That is true of a function, but not what **SRP** is.
+Each software module is responsible for one, and only one, actor - an actor being a single or a group of people (users, stakeholders, etc) that require a change. This is highly dependant on the social structure of the organization.
 
-> A module should have one, and only one, reason to change.
+### Symptom 1: Accidental Duplication
 
-The stakeholders (users, etc..) are the reason to change. These people can be grouped by their reason for wanting the change and defined as _actors_.
+An example that violates the SRP & results in issues is the below:
 
-> A module should be _responsible_ to one and only one, _actor_
+You have an `Employee` class in a payroll application that has 3 methods responsible to 3 actors:
 
-### Sympton 1: Accidental Duplication
+- `calculatePay()` -> accounting department (CFO)
+- `reportHours()` -> HR department (COO)
+- `save()` -> database administrators (CTO)
 
-When two functions rely on the same dependency (function or module) and those two functions are responsible to different actors, the shared dependency could be modified at the request of either actor causing issues and errors for the other actor (who did not request any changes)
+Putting these 3 methods in the sample `Employee` class couples them and thus couples the actors, which can result in the actions of the actors conflicting with each other.
 
-i.e.) an `Employee` class that has a function `regularHours()` that is used by both the Accounting team and the Operations team.
+To illustrate one scenario, picture a function `getRegularHours()` that calculates non-overtime hours. Accounting decides that the way this should be calculated needs to change, but HR also depends on this calculation and is unaware of the changes being made. This results in incorrect data for HR and drastically affects the budget.
 
-### Sympton 2: Merges
+### Symptom 2: Merges
 
-Merge conflicts are a code smell. Two different developers touching the same code causing merge conflicts is a risky event, one to be avoided.
+Another example of an issue that arises is the likelihood of merge problems.
 
-> Separate code that supports different actors
+Using the same `Employee` class example, if Accounting & HR both decide their team needs to make changes to something in the class, both teams concurrently make their changes and it's very likely their changes will collide.
+
+We need to avoid multiple actors changing the same source file for different purposes.
 
 ### Solutions
 
-Separate code into separate classes that rely only on the data itself. A facade pattern can be used to simplify instantiating and tracking the multitude of dependencies.
+There are many different solutions, each involves moving the functions into different classes.
+
+The most obvious solution is that in addition to making each function a separate class, we also separate the data. The 3 classes will now share access to the segmented `EmployeeData`, which is a simple data structure with no methods. The 3 classes hold their own source code, and they do not know about each other.
+
+To alleviate having to track 3 different classes, we can build on this solution by using a _Facade_ pattern.
+
+An `EmployeeFacade` would contain very little code and is only responsible for instantiating and delegating to the classes.
+
+If you are more comfortable keeping the most important business rules closer to the data, the most important method can be kept in the `Employee` class and instead use the class as the _Facade_ for the less important functions.
 
 ### Conclusion
 
