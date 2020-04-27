@@ -34,21 +34,21 @@ This page is reserved to capture a summary of each chapter.
 
 # PART IV: Component Principles
 
-## Chapter 12: Components
+## [Chapter 12: Components](summaries/chapter-12.md)
 
-## Chapter 13: Component Cohesion
+## [Chapter 13: Component Cohesion](summaries/chapter-13.md)
 
-## Chapter 14: Component Coupling
+## [Chapter 14: Component Coupling](summaries/chapter-14.md)
 
 # PART V: Architecture
 
-## Chapter 15: What Is Architecture?
+## [Chapter 15: What Is Architecture?](summaries/chapter-15.md)
 
-## Chapter 16: Independence
+## [Chapter 16: Independence](summaries/chapter-16.md)
 
-## Chapter 17: Boundaries: Drawing Lines
+## [Chapter 17: Boundaries: Drawing Lines](summaries/chapter-17.md)
 
-## Chapter 18: Boundary Anatomy
+## [Chapter 18: Boundary Anatomy](summaries/chapter-18.md)
 
 ## Chapter 19: Policy and Level
 
