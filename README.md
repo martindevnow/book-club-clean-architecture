@@ -17,7 +17,7 @@ We get together every two weeks for 30 min to talk about the chapter(s). Each me
 | 1 - 2    | Part I: Introduction           | 1 - 18 (18)    | 1:30PM EST on Wed, Mar 04 2020 | [Martin, Ben](https://github.com/martindevnow) |
 | 3 - 6    | Part II: Programming Paradigms | 19 - 56 (38)   | 1:30PM EST on Wed, Mar 18 2020 | [Andrew Lam](https://github.com/drewclam)
 | 7 - 11   | Part III: Design Principals    | 57 - 91 (34)   | 1:30PM EST on Wed, Apr 01 2020 | [Ev](https://github.com/evsDevs), and [Camila](https://github.com/camilaherculano)
-| 12 - 14  | Part IV: Component Principals  | 92 - 132 (41)  | 1:30PM EST on Wed, Apr 15 2020 |
+| 12 - 14  | Part IV: Component Principals  | 92 - 132 (41)  | 1:30PM EST on Wed, Apr 15 2020 | [Arti](https://github.com/artipsingh)
 | 15 - 18  | Part V: Architecture (Part 1)  | 133 - 181 (48) | 1:30PM EST on Wed, Apr 29 2020 |
 | 19 - 25  | Part V: Architecture (Part 2)  | 183 - 220 (37) | 1:30PM EST on Wed, May 13 2020 |
 | 26 - 29  | Part V: Architecture (Part 3)  | 231 - 273 (43) | 1:30PM EST on Wed, May 27 2020 |
@@ -38,3 +38,4 @@ We get together every two weeks for 30 min to talk about the chapter(s). Each me
 - [Andrew Lam](https://github.com/drewclam)
 - [Ev](https://github.com/evsDevs)
 - [Camila](https://github.com/camilaherculano)
+- [Arti](https://github.com/artipsingh)
