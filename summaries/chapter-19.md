@@ -6,7 +6,7 @@ These statements can be broken down into smaller statements of policy around bus
 
 Software architecture is carefully separating those policies and grouping them based on the ways that they change. (Think SRP [Single Responsability Principle] or CCP [Common Closure Principle])
 
-Architecture is forming these grouped components into an acyclic graph, outlining the dependencies between them direting the flow of dependencies from low-level to high-level.
+Architecture is forming these grouped components into an acyclic graph, outlining the dependencies between them directing the flow of dependencies from low-level to high-level.
 
 ### Level
 
@@ -14,4 +14,4 @@ Architecture is forming these grouped components into an acyclic graph, outlinin
 
 ### Conclusion
 
-Discussion around policies incorporates SRP, OCP, CCP, DIP, and SDP
+Discussion around policies incorporates SRP, OCP, CCP, DIP, and SDP (Stable Dependency Principle)
