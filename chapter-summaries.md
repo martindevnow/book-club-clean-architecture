@@ -64,13 +64,13 @@ This page is reserved to capture a summary of each chapter.
 
 ## [Chapter 25: Layers and Boundaries](summaries/chapter-25.md)
 
-## Chapter 26: The Main Component
+## [Chapter 26: The Main Component](summaries/chapter-26.md)
 
-## Chapter 27: Services: Great and Small
+## [Chapter 27: Services: Great and Small](summaries/chapter-27.md)
 
-## Chapter 28: The Test Boundary
+## [Chapter 28: The Test Boundary](summaries/chapter-28.md)
 
-## Chapter 29: Clean Embedded Architecture
+## [Chapter 29: Clean Embedded Architecture](summaries/chapter-29.md)
 
 # PART VI: Details
 
