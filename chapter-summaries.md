@@ -50,19 +50,19 @@ This page is reserved to capture a summary of each chapter.
 
 ## [Chapter 18: Boundary Anatomy](summaries/chapter-18.md)
 
-## Chapter 19: Policy and Level
+## [Chapter 19: Policy and Level](summaries/chapter-19.md)
 
-## Chapter 20: Business Rules
+## [Chapter 20: Business Rules](summaries/chapter-20.md)
 
-## Chapter 21: Screaming Architecture
+## [Chapter 21: Screaming Architecture](summaries/chapter-21.md)
 
-## Chapter 22: The Clean Architecture
+## [Chapter 22: The Clean Architecture](summaries/chapter-22.md)
 
-## Chapter 23: Presenters and Humble Objects
+## [Chapter 23: Presenters and Humble Objects](summaries/chapter-23.md)
 
-## Chapter 24: Partial Boundaries
+## [Chapter 24: Partial Boundaries](summaries/chapter-24.md)
 
-## Chapter 25: Layers and Boundaries
+## [Chapter 25: Layers and Boundaries](summaries/chapter-25.md)
 
 ## Chapter 26: The Main Component
 
