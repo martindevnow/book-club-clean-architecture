@@ -1,8 +1,8 @@
-## Chapter 7: SRP - The Single Responsibility Principle
+# Chapter 7: SRP - The Single Responsibility Principle
 
 Each software module is responsible for one, and only one, actor - an actor being a single or a group of people (users, stakeholders, etc) that require a change. This is highly dependant on the social structure of the organization.
 
-### Symptom 1: Accidental Duplication
+## Symptom 1: Accidental Duplication
 
 An example that violates the SRP & results in issues is the below:
 
@@ -16,7 +16,7 @@ Putting these 3 methods in the sample `Employee` class couples them and thus cou
 
 To illustrate one scenario, picture a function `getRegularHours()` that calculates non-overtime hours. Accounting decides that the way this should be calculated needs to change, but HR also depends on this calculation and is unaware of the changes being made. This results in incorrect data for HR and drastically affects the budget.
 
-### Symptom 2: Merges
+## Symptom 2: Merges
 
 Another example of an issue that arises is the likelihood of merge problems.
 
@@ -24,7 +24,7 @@ Using the same `Employee` class example, if Accounting & HR both decide their te
 
 We need to avoid multiple actors changing the same source file for different purposes.
 
-### Solutions
+## Solutions
 
 There are many different solutions, each involves moving the functions into different classes.
 
@@ -36,6 +36,6 @@ An `EmployeeFacade` would contain very little code and is only responsible for i
 
 If you are more comfortable keeping the most important business rules closer to the data, the most important method can be kept in the `Employee` class and instead use the class as the _Facade_ for the less important functions.
 
-### Conclusion
+## Conclusion
 
 SRP is about functions and classes, but reappears at higher levels as **Common Closure Principal** for components and **Axis of Change** responsible for the creation of architectural boundaries.

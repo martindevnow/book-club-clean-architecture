@@ -1,4 +1,4 @@
-## Chapter 4: Structured Programming
+# Chapter 4: Structured Programming
 
 Edsger Wybe Dijkstra thought programming could be made easier by using proven mathematical concepts (proofs) and tie them together with code. His first step was to write basic proofs of simple algorithms in code. Throughout his experiments he realized _goto_ statements prevented modules from being recursively reduced. However, some patterns of _goto_ proved useful - these corresponded to control flow structures like _if_, _then_, _else_ etc. He published his findings, to much controversy, but ultimately his arguments were accepted by the greater community.
 
