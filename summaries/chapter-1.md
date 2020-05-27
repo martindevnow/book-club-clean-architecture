@@ -1,4 +1,4 @@
-## Chapter 1: What is Design and Architecture?
+# Chapter 1: What is Design and Architecture?
 
 Design and Architecture are the same thing. And so it is with software design. The low-level details and the high-level structure are all part of the same whole. The goal of software architecture is to minimize the Human Resources required to build and maintain the required system. The requirement of human effort should not grow with each release.
 

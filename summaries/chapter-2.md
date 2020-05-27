@@ -1,4 +1,4 @@
-## Chapter 2: A Tale of Two Values
+# Chapter 2: A Tale of Two Values
 
 For stakeholders, they value the behaviour and the structure. As devs, we often focus on one to the detriment of the other.
 

@@ -1,4 +1,4 @@
-## Chapter 3: Paradigm Overview
+# Chapter 3: Paradigm Overview
 
 - Structured Programming: Imposes discipline on direct transfer of control. "Unrestrained jumps" such as _goto_ statements are harmful to program structure. Better to use flow control constructs like _if_, _then_, _else_ and _do_, _while_, _until_.
 

@@ -1,15 +1,15 @@
-## Chapter 18: Boundary Anatomy
+# Chapter 18: Boundary Anatomy
 
-### Boundary Crossing
+## Boundary Crossing
 
-### The Dreaded Monolith
+## The Dreaded Monolith
 
-### Deployment Components
+## Deployment Components
 
-### Threads
+## Threads
 
-### Local Processes
+## Local Processes
 
-### Services
+## Services
 
-### Conclusion
+## Conclusion
