@@ -26,9 +26,7 @@ A sample file is provided where the methods cross all types of different concern
 
 > Virtually every bit of this code knows it is in a special microprocessor architecture,
 
-The engineer, and the code, passed the App-titude test, but there is no way for this code
-to have a long useful life unless the product never needs to be moved to a different
-hardware environment. Therefore, it is not "Clean Embedded Architecture".
+The engineer, and the code, passed the App-titude test, but there is no way for this code to have a long useful life unless the product never needs to be moved to a different hardware environment. Therefore, it is not "Clean Embedded Architecture".
 
 ## The Target-hardware Bottleneck
 
