@@ -74,12 +74,12 @@ This page is reserved to capture a summary of each chapter.
 
 # PART VI: Details
 
-## Chapter 30: The Database Is a Detail
+## [Chapter 30: The Database Is a Detail](summaries/chapter-30.md)
 
-## Chapter 31: The Web Is a Detail
+## [Chapter 31: The Web Is a Detail](summaries/chapter-31.md)
 
-## Chapter 32: Frameworks Are Details
+## [Chapter 32: Frameworks Are Details](summaries/chapter-32.md)
 
-## Chapter 33: Case Study: Video Sales
+## [Chapter 33: Case Study: Video Sales](summaries/chapter-33.md)
 
-## Chapter 34: The Missing Chapter
+## [Chapter 34: The Missing Chapter](summaries/chapter-34.md)
